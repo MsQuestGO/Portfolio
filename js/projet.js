@@ -12,7 +12,7 @@ const listeProjets = [
         image: "./img/Legacy-Engine.webp",
         lien: "https://www.roblox.com/games/15205936662/Legacy-Engine-Does-NOT-simulate-old-roblox",
         Number: 2
-
+    },
 ];
 
 const projetsContainer = document.querySelector('.projets-container');
