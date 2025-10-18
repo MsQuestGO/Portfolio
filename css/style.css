@@ -1,0 +1,236 @@
+@font-face {
+    font-family: Figtree;
+    src: url(/font/Figtree.ttf);
+}
+
+:root{
+    --primary-color: #007BFF;
+    --secondary-color: #6C757D;
+    --background-color: #F8F9FA;
+    --text-color: #333333;
+    --background-color2: #e7ebf0;
+
+    @media (prefers-color-scheme: dark) {
+        --background-color: #1a1919;
+        --text-color: #FFFFFF;
+        --secondary-color: #BBBBBB;
+        --background-color2: #2c2b2b;
+
+        .bienvenus img:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+        box-shadow: 0 5px 8px rgba(4, 38, 187, 0.733);
+        }
+    }
+}
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Figtree, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 100%;
+    color: var(--secondary-color);
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 25px;
+    font-family: Figtree, sans-serif;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+}
+nav ul li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+nav ul li img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.bienvenus {
+    text-align: center;
+    margin: 50px;
+}
+
+.bienvenus h1 {
+    font-family: Figtree, sans-serif;
+    font-size: 36px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.bienvenus img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: var(--primary-color) 3px solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.bienvenus img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 5px 8px rgba(17, 58, 241, 0.733);
+}
+
+.bienvenus p {
+    font-family: Figtree, sans-serif;
+    font-size: 20px;
+    color: var(--secondary-color);
+    margin-top: 20px;
+}
+
+.bienvenus p a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+samp , p a samp{
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.bienvenus p a:hover {
+    text-decoration: underline;
+    transition: text-decoration 0.3s ease;
+}
+
+.projets {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: Figtree, sans-serif;
+    font-size: 32px;
+    color: var(--text-color);
+    margin-bottom: 30px;
+}
+.projets-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 400px;
+}
+
+.projet-item {
+    margin-bottom: 40px;
+    width: 250px;
+    background-color: var(--background-color2);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.projet-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 5px 8px rgba(0, 123, 255, 0.733);
+}
+
+.projet-item h3 {
+    font-family: Figtree, sans-serif;
+    font-size: 24px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.projet-item p {
+    font-family: Figtree, sans-serif;
+    font-size: 18px;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+}
+
+.projet-item img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: var(--background-color2);
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+}
+
+footer ul li {
+    margin-right: 15px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer ul li p {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+footer ul li a:hover {
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+}
+
+footer ul li img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
