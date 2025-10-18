@@ -9,7 +9,7 @@ const listeProjets = [
     {
         titre: "Legacy-Engine",
         description: "Legacy Engine simule l'ancien Roblox de 2006 à 2008, mais avec une petite touche d'originalité. C'est complètement différent ! Essayez-le !",
-        image: "./img/Legacy-Engine.webp",
+        image: "./img/LegacyEngine.webp",
         lien: "https://www.roblox.com/games/15205936662/Legacy-Engine-Does-NOT-simulate-old-roblox",
         Number: 2
     },
