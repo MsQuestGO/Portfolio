@@ -135,7 +135,6 @@ nav ul li img:hover {
 
 samp , p a samp{
     font-weight: 700;
-    font-size: 20px;
     color: var(--primary-color);
     font-family: nintendo, sans-serif;
 }
