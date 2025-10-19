@@ -3,6 +3,13 @@
     src: url(/font/Figtree.ttf);
 }
 
+@font-face {
+    font-family: nintendo;
+    src: url(/font/PopHappiness.ttf);
+}
+
+
+
 :root{
   --primary-color:#007BFF;
   --secondary-color:#6C757D;
@@ -31,7 +38,7 @@
 body {
     background-color: var(--background-color);
     color: var(--text-color);
-    font-family: Figtree, sans-serif;
+    font-family: nintendo, sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -68,7 +75,7 @@ nav ul li a {
     text-decoration: none;
     color: var(--text-color);
     font-size: 25px;
-    font-family: Figtree, sans-serif;
+    font-family: nintendo, sans-serif;
     font-weight: 700;
 }
 
@@ -93,7 +100,7 @@ nav ul li img:hover {
 }
 
 .bienvenus h1 {
-    font-family: Figtree, sans-serif;
+    font-family: nintendo, sans-serif;
     font-size: 36px;
     color: var(--text-color);
     margin-bottom: 20px;
@@ -114,7 +121,7 @@ nav ul li img:hover {
 }
 
 .bienvenus p {
-    font-family: Figtree, sans-serif;
+    font-family: nintendo, sans-serif;
     font-size: 20px;
     color: var(--secondary-color);
     margin-top: 20px;
@@ -145,7 +152,7 @@ samp , p a samp{
 }
 
 h2 {
-    font-family: Figtree, sans-serif;
+    font-family: nintendo, sans-serif;
     font-size: 32px;
     color: var(--text-color);
     margin-bottom: 30px;
@@ -176,14 +183,14 @@ h2 {
 }
 
 .projet-item h3 {
-    font-family: Figtree, sans-serif;
+    font-family: nintendo, sans-serif;
     font-size: 24px;
     color: var(--primary-color);
     margin-bottom: 10px;
 }
 
 .projet-item p {
-    font-family: Figtree, sans-serif;
+    font-family: nintendo, sans-serif;
     font-size: 18px;
     color: var(--secondary-color);
     margin-bottom: 10px;
