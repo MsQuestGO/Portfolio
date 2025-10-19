@@ -8,32 +8,11 @@
 :root {
     --primary-color: #007BFF;
     --secondary-color: #cacaca;
-    --background-color: #c5c5c5;
-    --text-color: #333333;
+    --background-color: #d8d8d8;
+    --text-color: #202020;
     --background-color2: #e7ebf0;
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background-color: #1a1919;
-        --text-color: #FFFFFF;
-        --secondary-color: #BBBBBB;
-        --background-color2: #2c2b2b;
-    }
-
-    @font-face {
-    font-family: nintendo;
-    src: url(/font/nintendo_NTLG-DB_002.ttf);
-}
-
-    /* règles optionnelles spécifiques dark */
-    .bienvenus img:hover {
-        transform: scale(1.05);
-        transition: transform .3s ease;
-        box-shadow: 0 5px 8px rgba(4, 38, 187, .733);
-    }
-}
 
 @media only screen and (max-width: 480px) {
     .projet-item {
@@ -61,7 +40,7 @@ body {
 }
 
 .background-clip{
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     z-index: -1;

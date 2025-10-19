@@ -44,3 +44,4 @@ for (let index = 0; index < listeProjets.length; index++) {
     projetsContainer.appendChild(divProjets);
     
 }
+
