@@ -39,25 +39,15 @@ body {
     flex-direction: column;
 }
 
-/* La vidéo occupe tout l'écran */
+.videos {
+    height: 100%;
+}
+
 .background-clip {
     position: fixed;
-    width: 100vw;          /* largeur totale de la fenêtre */
-    height: 100vh;         /* hauteur totale de la fenêtre */
-    object-fit: cover;     /* garde le ratio sans bandes noires */
-    z-index: -1;           /* derrière le contenu */
-}
-
-/* Conteneur vidéo */
-.videos {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
     z-index: -1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-
-
 
 * {
     margin: 0;
