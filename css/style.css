@@ -27,6 +27,11 @@
         --background-color2: #2c2b2b;
     }
 
+    @font-face {
+    font-family: nintendo;
+    src: url(/font/PopHappiness.ttf);
+}
+
     /* règles optionnelles spécifiques dark */
     .bienvenus img:hover {
         transform: scale(1.05);
@@ -173,11 +178,13 @@ h2 {
 }
 
 .projet-item {
-    margin-bottom: 40px;
-    width: 250px;
+    width: 500px;
+    height: 250px;
     display: grid;
-    justify-items: center;
-
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    grid-template-columns: 200px 1fr 1fr;
     background-color: var(--background-color2);
     border-radius: 10px;
     padding: 20px;
@@ -193,23 +200,27 @@ h2 {
 
 .projet-item h3 {
     font-family: nintendo, sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     color: var(--primary-color);
     margin-bottom: 10px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
 }
 
 .projet-item p {
     font-family: nintendo, sans-serif;
-    font-size: 18px;
+    font-size: 12px;
     color: var(--secondary-color);
     margin-bottom: 10px;
+    align-items:end;
 }
 
 .projet-item img {
-    width: 100%;
-    max-width: 600px;
+    width: 150px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 40px;
 }
 
 footer {
