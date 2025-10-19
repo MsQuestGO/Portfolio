@@ -1,9 +1,4 @@
 @font-face {
-    font-family: Figtree;
-    src: url(/font/Figtree.ttf);
-}
-
-@font-face {
     font-family: nintendo;
     src: url(/font/PopHappiness.ttf);
 }
@@ -93,7 +88,6 @@ nav ul li a:hover {
 nav ul li img {
     width: 40px;
     height: 40px;
-    border-radius: 50%;
 
 }
 
@@ -117,7 +111,7 @@ nav ul li img:hover {
 .bienvenus img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 10%;
     border: var(--primary-color) 3px solid;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
