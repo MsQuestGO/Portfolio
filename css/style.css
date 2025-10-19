@@ -35,6 +35,22 @@
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .projet-item {
+        width: 50%;
+        height: auto;
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .projet-item img {
+        margin: 0 auto;
+        display: block;
+        margin-top: 10px;
+    }
+    
+}
+
 body {
     background-color: var(--background-color);
     color: var(--text-color);
