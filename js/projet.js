@@ -13,6 +13,13 @@ const listeProjets = [
         lien: "https://www.roblox.com/games/15205936662/Legacy-Engine-Does-NOT-simulate-old-roblox",
         Number: 2
     },
+    {
+        titre: "Ultimate Party",
+        description: "Ultimate Party est un jeu mini-game, il s'inspira de Mario Party et de Warioware. Le jeu est en cours de développement.",
+        image: "./img/UltimateParty.png",
+        lien: "./page/construction.html",
+        Number: 3
+    },
 ];
 
 const projetsContainer = document.querySelector('.projets-container');

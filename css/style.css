@@ -241,6 +241,7 @@ h2 {
 }
 
 .projet-item {
+    border: var(--primary-color) 3px solid;
     width: 500px;
     height: 250px;
     display: grid;
