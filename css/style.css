@@ -15,20 +15,79 @@
 
 
 @media only screen and (max-width: 480px) {
-    .projet-item {
-        width: 50%;
-        height: auto;
-        grid-template-columns: 1fr;
-        padding: 10px;
-    }
+  .projets-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto; 
+    box-sizing: border-box;
+  }
 
-    .projet-item img {
-        margin: 0 auto;
-        display: block;
-        margin-top: 10px;
-    }
-    
+  .projet-item {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    height: auto !important;
+    background-color: var(--background-color2);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 0 auto;            
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    transition: transform .3s ease, box-shadow .3s ease;
+    box-sizing: border-box;
+  }
+
+  .projet-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 8px rgba(0,123,255,.733);
+  }
+
+  .projet-item h3,
+  .projet-item p {
+    position: static !important;
+    float: none !important;
+    width: 100%;
+    text-align: center;
+  }
+
+  .projet-item h3 {
+    font-family: nintendo, sans-serif;
+    font-size: 18px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+  }
+
+  .projet-item p {
+    font-family: nintendo, sans-serif;
+    font-size: 13px;
+    color: var(--text-color);
+    line-height: 1.4;
+    margin-bottom: 15px;
+  }
+
+  .projet-item img {
+
+    align-self: center;
+    width: 140px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.2);
+    object-fit: cover;
+    margin-left: 0px !important;
+  }
+
+  
+  .projet-item { grid-template-columns: none !important; }
 }
+
+
+
 
 body {
     background-color: var(--background-color);
