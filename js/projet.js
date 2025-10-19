@@ -45,3 +45,11 @@ for (let index = 0; index < listeProjets.length; index++) {
     
 }
 
+
+document.addEventListener("click", () => {
+  const projetsContainer = document.querySelector('.background-clip');
+  if (projetsContainer) {
+    projetsContainer.muted = false;
+    projetsContainer.play(); // facultatif, si tu veux lancer la vidéo
+  }
+});
