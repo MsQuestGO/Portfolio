@@ -13,7 +13,7 @@
             <ul>
                 <li><img src="./img/Logo_MsQuest.png" alt="logo"></li>
                 <li><a href="#">Home</a></li>
-                <li><a href="./page/construction.html">Projet</a></li>
+                <li><a href="./page/pagesdesprojets.html">Projet</a></li>
                 <li><a href="./page/construction.html">Moi</a></li>
             </ul>
         </nav>
@@ -55,5 +55,16 @@
     </footer>
 </body>
 
+<script> 
+    document.addEventListener("click", () => {
+        const projetsContainer = document.querySelector('.background-clip');
+        if (projetsContainer) {
+            projetsContainer.muted = false;
+            projetsContainer.play(); // facultatif, si tu veux lancer la vidéo
+        }
+    });
+</script>
+
+<script src="./js/listeProjet.js"></script>
 <script src="./js/projet.js"></script>
 </html>

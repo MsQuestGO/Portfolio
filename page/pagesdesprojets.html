@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MsQuest | Projets</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/pagelisteprojet.css">
+    <link rel="shortcut icon" href="../img/Logo_MsQuest.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="../img/Logo_MsQuest.png" alt="logo"></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Projet</a></li>
+                <li><a href="../page/construction.html">Moi</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <div class="videos">
+            <video autoplay loop muted plays-inline class="background-clip">
+                <source src="../img/Wii U Menu - TV Background Loop.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <Section class="projet-section">
+            <h2>Mes Projets</h2>
+
+            <div class="projet-section-container">
+                <div class="projetdiv">
+                    <a href="#"><img src="https://placehold.co/200/blue/white" alt=""></a>
+                </div>
+
+                <div class="projetdiv">
+                    <a href="#"><img src="https://placehold.co/200/blue/white" alt=""></a>
+                </div>
+
+                <div class="projetdiv">
+                    <a href="#"><img src="https://placehold.co/200/blue/white" alt=""></a>
+                </div>
+            </div>
+        </Section>
+
+        <section class="projets">
+            <h2>Projet personnel</h2>
+            <div class="projets-container personnel">
+                <!-- Les projets seront insérés ici par JavaScript -->
+            </div>
+
+            <h2>Projet de stage</h2>
+            <div class="projets-container stage">
+                <!-- Les projets seront insérés ici par JavaScript -->
+            </div>
+
+            <h2>Projet TP</h2>
+            <div class="projets-container tp">
+                <!-- Les projets seront insérés ici par JavaScript -->
+            </div>
+        </section>
+            
+    </main>
+
+    <footer>
+        <ul>
+            <li><img src="../img/Logo_MsQuest.png" alt="logo"></li>
+            <li><a href="../page/construction.html">Contacter</a></li>
+            <li><a href="../page/construction.html">Mentions légales</a></li>
+            <li><p>&copy; 2025 Enzo RALUY--MARLIN</p></li>
+        </ul>
+    </footer>
+</body>
+
+<script> 
+    document.addEventListener("click", () => {
+        const projetsContainer = document.querySelector('.background-clip');
+        if (projetsContainer) {
+            projetsContainer.muted = false;
+            projetsContainer.play(); // facultatif, si tu veux lancer la vidéo
+        }
+    });
+</script>
+
+<script src="../js/listeProjet.js"></script>
+<script src="../js/projetPage.js"></script>
+</html>

@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="fr-FR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MsQuest | Page en construction</title>
+    <title>MsQuest | Template</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" href="../img/Logo_MsQuest.png" type="image/x-icon">
+
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><img src="../img/Logo_MsQuest.png" alt="logo"></li>
+                <li><img src="./img/Logo_MsQuest.png" alt="logo"></li>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="../page/pagesdesprojets.html">Projets</a></li>
+                <li><a href="#">Projet</a></li>
                 <li><a href="../page/construction.html">Moi</a></li>
             </ul>
         </nav>
@@ -22,18 +22,14 @@
 
         <div class="videos">
             <video autoplay loop muted plays-inline class="background-clip">
-                <source src="../img/Wii U Menu - TV Background Loop.mp4" type="video/mp4">
+                <source src="./img/Wii U Menu - TV Background Loop.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-        </div>
-        <section class="bienvenus">
-            
-            <h1>Page en construction</h1>
-            <img style="transform: scale(1);border: none; border-radius: 0; box-shadow: none; height:50%; width: 50%;" src="../img/construction.png" alt="Image de construction">
 
-            <p>Cette page est actuellement en cours de construction. <br> Revenez bientôt.</p>
-        </section>
+        </div>
+            
     </main>
+
     <footer>
         <ul>
             <li><img src="../img/Logo_MsQuest.png" alt="logo"></li>
@@ -44,5 +40,13 @@
     </footer>
 </body>
 
-<script src="/js/projet.js"></script>
+<script> 
+    document.addEventListener("click", () => {
+        const projetsContainer = document.querySelector('.background-clip');
+        if (projetsContainer) {
+            projetsContainer.muted = false;
+            projetsContainer.play(); // facultatif, si tu veux lancer la vidéo
+        }
+    });
+</script>
 </html>
