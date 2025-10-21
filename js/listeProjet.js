@@ -31,42 +31,36 @@ const listeProjets = [
 const listeDessin = [
     {
         titre: "Teto UTAU",
-        description: "Description du dessin 1",
         image: "../img/Dessin/tetoUTAU_par_MsQuest.png",
         description: "",
     },
 
     {
         titre: "OC MsQuest",
-        description: "Description du dessin 2",
         image: "../img/Dessin/OC _MsQuest.png",
         description: "",
     },
 
     {
         titre: "Mihari V2",
-        description: "Description du dessin 2",
         image: "../img/Dessin/Mihari_V2_par_MsQuest.png",
         description: "",
     },
 
     {
         titre: "Mahiro",
-        description: "Description du dessin 3",
         image: "../img/Dessin/Mahiro_par_MsQuest.png",
         description: "",
     },
 
     {
         titre: "Tête de Teto Chibi",
-        description: "Description du dessin 4",
         image: "../img/Dessin/TETO_par_MsQuest.png",
         description: "",
     },
 
     {
         titre: "Mihari",
-        description: "Description du dessin 4",
         image: "../img/Dessin/Mihari_par_MsQuest.png",
         description: "",
     },
