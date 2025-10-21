@@ -1,6 +1,7 @@
 const projetsContainerPersonnel = document.querySelector('.personnel');
 const projetsContainerStage = document.querySelector('.stage');
 const projetsContainerTP = document.querySelector('.tp');
+const projetsContainerDessin = document.querySelector('.dessin');
 
 for (let index = 0; index < listeProjets.length; index++) {
     
@@ -82,4 +83,24 @@ for (let index = 0; index < listeProjets.length; index++) {
 
         projetsContainerTP.appendChild(divProjets);
     }
+}
+
+for (let index = 0; index < listeDessin.length; index++) {
+    
+    const element = listeDessin[index];
+
+        const divProjets = document.createElement('div');
+        divProjets.classList.add('dessin-item');
+
+        const titreProjet = document.createElement('h3');
+        titreProjet.innerText = element.titre;
+
+        const imgProjet = document.createElement('img');
+        imgProjet.setAttribute('src', element.image);
+        imgProjet.setAttribute('alt', element.titre);
+
+        divProjets.appendChild(titreProjet);
+        divProjets.appendChild(imgProjet);
+        projetsContainerDessin.appendChild(divProjets);
+
 }
