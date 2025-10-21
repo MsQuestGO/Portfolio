@@ -44,6 +44,13 @@ const listeDessin = [
     },
 
     {
+        titre: "Mihari V2",
+        description: "Description du dessin 2",
+        image: "../img/Dessin/Mihari_V2_par_MsQuest.png",
+        description: "",
+    },
+
+    {
         titre: "Mahiro",
         description: "Description du dessin 3",
         image: "../img/Dessin/Mahiro_par_MsQuest.png",
