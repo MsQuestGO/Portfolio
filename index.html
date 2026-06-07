@@ -1,70 +1,13 @@
 <!DOCTYPE html>
-<html lang="fr-FR">
-<head>
+<html lang="">
+  <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MsQuest | Home</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./img/Logo_MsQuest.png" type="image/x-icon">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><img src="./img/Logo_MsQuest.png" alt="logo"></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="./page/pagesdesprojets.html">Projet</a></li>
-                <li><a href="./page/construction.html">Moi</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-
-        <div class="videos">
-            <video autoplay loop muted plays-inline class="background-clip">
-                <source src="./img/Wii U Menu - TV Background Loop.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-
-        </div>
-        <section class="bienvenus">
-            <h1>Bienvenue sur le portfolio de <samp>Enzo RALUY--MARLIN</samp></h1>
-            <img src="./img/pfp.png" alt=" Photo de profil de Enzo RALUY--MARLIN (MsQuest ou Zena)">
-
-            <p>Je suis en <samp><a href="#">BTS SIO (SLAM)</a></samp> passionné par la création de sites web innovants et fonctionnels. Sur ce portfolio, vous découvrirez mes projets, mes compétences et mon parcours professionnel. N'hésitez pas à me contacter pour toute collaboration ou opportunité.</p>
-        </section>
-
-        <h2>Mes Projets</h2>
-
-        <section class="projets">
-
-            <div class="projets-container">
-                <!-- Les projets seront insérés ici par JavaScript -->
-            </div>
-        </section>
-            
-    </main>
-
-    <footer>
-        <ul>
-            <li><img src="./img/Logo_MsQuest.png" alt="logo"></li>
-            <li><a href="./page/construction.html">Contacter</a></li>
-            <li><a href="./page/cgu.html">Mentions légales</a></li>
-            <li><p>&copy; 2025 Enzo RALUY--MARLIN</p></li>
-        </ul>
-    </footer>
-</body>
-
-<script> 
-    document.addEventListener("click", () => {
-        const projetsContainer = document.querySelector('.background-clip');
-        if (projetsContainer) {
-            projetsContainer.muted = false;
-            projetsContainer.play(); // facultatif, si tu veux lancer la vidéo
-        }
-    });
-</script>
-
-<script src="./js/listeProjet.js"></script>
-<script src="./js/projet.js"></script>
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
