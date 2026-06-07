@@ -1,7 +1,3 @@
-<script setup>
-    import Projets from '/src/components/Projets.vue'
-</script>
-
 <template>
     <h1 class="text-center text-4xl mt-5">Salut, je suis Zena !</h1>
     <p class="text-lg mt-8 text-center">Bienvenue sur mon portfolio ! Je suis une développeuse passionnée par la création de sites web innovants et la création de contenu liée au jeux vidéo. Je me suis intéressée a la création
