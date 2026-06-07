@@ -22,6 +22,21 @@ const router = createRouter({
       name: 'veille-technologique',
       component: () => import('@/views/VeilleTechnologique.vue')
     },
+    {
+      path: '/formation-sio',
+      name: '/formation-sio',
+      component: () => import('@/views/Sio.vue')
+    },
+    {
+      path: '/portfolio',
+      name: 'portfolio',
+      component: () => import('@/views/Portfolio.vue')
+    },
+        {
+      path: '/tp-td',
+      name: 'tp-td',
+      component: () => import('@/views/tp-td.vue')
+    }
   ],
 })
 

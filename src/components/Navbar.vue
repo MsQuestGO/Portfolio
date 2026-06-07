@@ -14,9 +14,9 @@ import { RouterLink} from 'vue-router'
         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
         <li><RouterLink to="/">Homepage</RouterLink></li>
         <li><RouterLink to="/portfolio">Portfolio</RouterLink></li>
+        <li><RouterLink to="/formation-sio">Formation-SIO</RouterLink></li>
         <li><RouterLink to="/tp-td">TP/TD</RouterLink></li>
         <li><RouterLink to="/veille-technologique">Veille technologique</RouterLink></li> 
-        <li><RouterLink to="/about">A propos</RouterLink></li>
       </ul>
     </div>
   </div>
