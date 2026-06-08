@@ -39,6 +39,10 @@
         padding: 50px;
     }
 
+    footer{
+        position: static;
+    }
+    
     .centrer{
         display: flex;
         align-items: center;
