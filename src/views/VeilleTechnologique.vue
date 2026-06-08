@@ -35,6 +35,10 @@
 </template>
 
 <style>
+
+    .magine{
+        padding: 0;
+    }
     .magine{
         padding: 50px;
     }
