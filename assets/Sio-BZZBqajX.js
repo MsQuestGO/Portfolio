@@ -1,1 +1,0 @@
-import{a as e,n as t,r as n,t as r}from"./index-C8Iz6FlJ.js";var i={},a={class:`magine`};function o(r,i){return e(),n(`div`,a,[...i[0]||=[t(`p`,{class:`text-lg mt-8 text-center`},` Cette page est en construction revenez plus tard `,-1),t(`div`,{class:`centrer`},[t(`span`,{class:`loading loading-spinner loading-xl`})],-1)]])}var s=r(i,[[`render`,o]]);export{s as default};
