@@ -32,7 +32,7 @@
     
 </template>
 
-<style>
+<style scoped>
 
     footer{
         position: static;
