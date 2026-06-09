@@ -1,5 +1,4 @@
 <template>
-    <div class="magine">
         <h1 class="text-center text-4xl mt-5">Qu’est-ce qu’une veille technologique ? </h1>
 
         <p class="text-lg mt-8">
@@ -31,17 +30,9 @@
         <div class="centrer">
             <span class="loading loading-spinner loading-xl"></span>
         </div>
-    </div>
 </template>
 
 <style>
-
-    .magine{
-        padding: 0;
-    }
-    .magine{
-        padding: 50px;
-    }
 
     footer{
         position: static;
