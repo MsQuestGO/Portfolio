@@ -31,3 +31,10 @@
     </div>
     
 </template>
+
+<style>
+
+    footer{
+        position: static;
+    }
+</style>
